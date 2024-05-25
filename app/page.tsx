@@ -77,7 +77,7 @@ export default function Home() {
 
                 { cars.length > 0 ? (
                     <section>
-                        <div className="home__cars-wapper">
+                        <div className="home__cars-wrapper">
                             {cars.map((car: any) => (
                                 <CarCard car={car} />
                             ))}
